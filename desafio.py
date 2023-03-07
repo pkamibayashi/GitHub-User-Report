@@ -96,7 +96,7 @@ class TestMethods(unittest.TestCase):
 
 
 if __name__ == "__main__":
-    nick = "pkamibayashi"  # SUBSTITUIA pkamibayashi PELO NICK DO USUARIO QUE DESEJA GERAR O RELATORIO
+    nick = input("Digite o nickname do usuário que deseja gerar o relatório: ")
     user = obter_user(nick)
     repos = obter_user_repos(nick)
     user_report(user, repos)
