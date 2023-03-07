@@ -1,0 +1,36 @@
+Nome: Paulo Kamibayashi
+Perfil: https://github.com/pkamibayashi
+Numero de repositorios publicos: 56
+Numero de seguidores: 2
+Numero de usuarios seguidos: 4
+Repositorios:
+a004-exercicio-fixacao: https://github.com/pkamibayashi/a004-exercicio-fixacao
+a004-terminal-git: https://github.com/pkamibayashi/a004-terminal-git
+a007-variaveis: https://github.com/pkamibayashi/a007-variaveis
+a008-operadores: https://github.com/pkamibayashi/a008-operadores
+a009-strings: https://github.com/pkamibayashi/a009-strings
+a010-arrays: https://github.com/pkamibayashi/a010-arrays
+a011-objetos: https://github.com/pkamibayashi/a011-objetos
+a012-condicionais-I: https://github.com/pkamibayashi/a012-condicionais-I
+a013-condicionais-ii: https://github.com/pkamibayashi/a013-condicionais-ii
+a013-template: https://github.com/pkamibayashi/a013-template
+a015-template: https://github.com/pkamibayashi/a015-template
+a016-lacos-ii: https://github.com/pkamibayashi/a016-lacos-ii
+a016-template: https://github.com/pkamibayashi/a016-template
+a017-funcoes: https://github.com/pkamibayashi/a017-funcoes
+a018-funcoes-de-array: https://github.com/pkamibayashi/a018-funcoes-de-array
+a019-html-i: https://github.com/pkamibayashi/a019-html-i
+a020-html-ii: https://github.com/pkamibayashi/a020-html-ii
+a021-css-i: https://github.com/pkamibayashi/a021-css-i
+a022-css-ii: https://github.com/pkamibayashi/a022-css-ii
+a023-flexbox: https://github.com/pkamibayashi/a023-flexbox
+a027-dom-i: https://github.com/pkamibayashi/a027-dom-i
+a027-template: https://github.com/pkamibayashi/a027-template
+a028-dom-ii: https://github.com/pkamibayashi/a028-dom-ii
+a028-template: https://github.com/pkamibayashi/a028-template
+a15-lacos-i: https://github.com/pkamibayashi/a15-lacos-i
+aulaRestaurante: https://github.com/pkamibayashi/aulaRestaurante
+Budgeting-App: https://github.com/pkamibayashi/Budgeting-App
+challenge-react: https://github.com/pkamibayashi/challenge-react
+Flexbox-studies: https://github.com/pkamibayashi/Flexbox-studies
+IronSkyDive: https://github.com/pkamibayashi/IronSkyDive
