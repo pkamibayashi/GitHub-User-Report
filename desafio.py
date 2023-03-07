@@ -12,28 +12,35 @@ class User:
 
 # faz uma requisição à API do GitHub e cria um objeto User com as informações recebidas
 def obter_user(username):
-    response = requests.get(f"https://api.github.com/users/{username}", timeout=5)
-    data = response.json()
-    user_obj = User(
-        data["name"],
-        data["html_url"],
-        data["public_repos"],
-        data["followers"],
-        data["following"],
-    )
-
-    return user_obj
+    url = f"https://api.github.com/users/{username}"
+    response = requests.get(
+        url, timeout=5
+    )  # O timeout=5 faz com que a app não fique esperando indefinidamente, responda rapido e o tempo também é o suficiente para o server.
+    if response.status_code == 200:
+        data = response.json()
+        name = data.get("name")
+        profile_url = data.get("html_url")
+        public_repos = data.get("public_repos")
+        followers = data.get("followers")
+        following = data.get("following")
+        return User(name, profile_url, public_repos, followers, following)
+    else:
+        return None
 
 
 # faz uma requisição à API do GitHub e retorna um dicionário com os nomes e URLs dos repositórios do usuário.
 def obter_user_repos(username):
     response = requests.get(f"https://api.github.com/users/{username}/repos", timeout=5)
-    # print(response.json())
-    repos_dict = {}
-    for repo in response.json():
-        repos_dict[repo["name"]] = repo["html_url"]
-    # print(repos)
-    return repos_dict
+    if response.status_code == 200:
+        repos_dict = {}
+        for repo in response.json():
+            repos_dict[repo["name"]] = repo["html_url"]
+        return repos_dict
+    else:
+        print(
+            "*********** Woops! Algo deu errado! Verifique o nick do usuário ********"
+        )
+        return None
 
 
 # gera um relatório em um arquivo de texto com informações do usuário e seus repositórios.
