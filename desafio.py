@@ -1,4 +1,5 @@
 import requests
+import unittest
 
 
 class User:
@@ -57,9 +58,6 @@ def user_report(user_obj, repos_dict):
         f.write("Repositorios:\n")
         for repo, url in repos_dict.items():
             f.write(f"{repo}: {url}\n")
-
-
-import unittest
 
 
 class TestMethods(unittest.TestCase):
